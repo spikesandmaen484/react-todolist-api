@@ -51,7 +51,7 @@ function Login() {
         <div id="loginPage" className="bg-yellow">
             <div className="conatiner loginPage vhContainer ">
                 <div className="side">
-                    <img className="d-m-n" src="../src/img/wholePicture.png" alt="workImg"></img>
+                    <img className="d-m-n" src="https://github.com/spikesandmaen484/react-todolist-api/tree/main/src/img/wholePicture.png" alt="workImg"></img>
                 </div>
                 <div>
                     <form className="formControls" action="" onSubmit={handleSubmit(login)}>

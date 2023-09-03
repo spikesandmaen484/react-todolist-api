@@ -50,8 +50,8 @@ function Register() {
         <div id="signUpPage" className="bg-yellow">
             <div className="conatiner signUpPage vhContainer">
                 <div className="side">
-                    <NavLink to="#"><img className="logoImg" src="../src/img/onlineTodoList.png" alt="" /></NavLink>
-                    <img className="d-m-n" src="../src/img/person.png" alt="workImg" />
+                    <NavLink to="#"><img className="logoImg" src="https://github.com/spikesandmaen484/react-todolist-api/tree/main/src/img/onlineTodoList.png" alt="" /></NavLink>
+                    <img className="d-m-n" src="https://github.com/spikesandmaen484/react-todolist-api/tree/main/src/img/person.png" alt="workImg" />
                 </div>
                 <div>
                     <form className="formControls" action="index.html" onSubmit={handleSubmit(onSubmit)}>
