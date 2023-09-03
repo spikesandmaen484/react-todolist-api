@@ -51,7 +51,7 @@ function Login() {
         <div id="loginPage" className="bg-yellow">
             <div className="conatiner loginPage vhContainer ">
                 <div className="side">
-                    <img className="d-m-n" src="https://github.com/spikesandmaen484/react-todolist-api/tree/main/src/img/wholePicture.png" alt="workImg"></img>
+                    <img className="d-m-n" src="https://github.com/spikesandmaen484/react-todolist-api/blob/main/src/img/wholePicture.png?raw=true" alt="workImg"></img>
                 </div>
                 <div>
                     <form className="formControls" action="" onSubmit={handleSubmit(login)}>
@@ -65,7 +65,7 @@ function Login() {
                                 message: '信箱格式錯誤',
                             }
                          }} />
-
+                        
                         <InputGroup register={register} errors={errors} labelText='密碼' labelClass='formControls_label fw-bolder position-relative w-100' type="password" id="password" placeholder="請輸入密碼" inputClass='formControls_input' 
                          rules={{
                             required: { value: true, message: '此欄位必填' },
@@ -73,7 +73,7 @@ function Login() {
                             maxLength: { value: 20, message: '密碼長度最20碼' }
                         }}>
                         </InputGroup>
-
+                        
                         <input className="formControls_btnSubmit" type="submit" value="登入" />
                         <NavLink to='/Register' className="formControls_btnLink"><p>註冊帳號</p></NavLink>
                     </form>

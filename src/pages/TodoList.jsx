@@ -166,8 +166,8 @@ function TodoList() {
                             <i className="fa fa-plus"></i>
                         </NavLink>
                     </div>
-                    {todos.length === 0 ? (<div className="empty"><p>目前尚無待辦事項</p>
-                    <img src='https://github.com/spikesandmaen484/react-todolist-api/tree/main/src/img/person.png?raw=true' alt='目前尚無待辦事項' /></div>)
+                    {todos.length === 0 ? (<div className="empty"><p align="center">目前尚無待辦事項</p>
+                    <img src='https://github.com/spikesandmaen484/react-todolist-api/blob/main/src/img/person.png?raw=true' alt='目前尚無待辦事項' /></div>)
                       : (
                             <TodoItem todos={todos} toggleState={toggleState} setToggleState={setToggleState} changeStatus={changeStatus} getTodos={getTodos} />
                         )
